@@ -1,0 +1,45 @@
+.section-header {
+  margin-bottom: 20px;
+
+  @media (min-width: 992px) {
+    margin-bottom: 40px;
+  }
+}
+
+.section-header__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 1.3;
+  text-align: center;
+  color: #000000;
+
+  @media (min-width: 992px) {
+    font-size: 42px;
+  }
+}
+
+.section-header__description {
+  max-width: 630px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #999999;
+}
+
+.section-header__description--uppercase {
+  text-transform: uppercase;
+}
+
+.section-header__description--16px {
+  font-size: 16px;
+}
+
+.section-header__description p {
+  margin-top: 10px;
+}

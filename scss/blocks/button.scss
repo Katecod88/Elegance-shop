@@ -1,0 +1,26 @@
+.button {
+  display: inline-block;
+  padding: 0.42307em 1.26923em 0.53846em;
+  border-radius: 4px;
+  background-color: #f72464;
+  box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+  border-radius: 4px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 1;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in;
+
+  &:hover {
+    box-shadow: 0px 4px 25px rgba(184, 13, 64, 0.671);
+    background-color: #ff3874;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 26px;
+  }
+}
